@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <!-- Enlace a Bootstrap CDN para los estilos -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Estilos personalizados -->
+    <style>
+        /* Estilo del menú */
+        .navbar {
+            background-color: #58B2AF;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff;
+        }
+        /* Estilo del jumbotron */
+        .jumbotron {
+            background-image: url("https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.jpg");
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+            padding: 100px 0;
+            margin-bottom: 0;
+        }
+        .jumbotron h1, .jumbotron p {
+            background-color: rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        /* Estilo del contenido principal */
+        .main-content {
+            background-color: #fff;
+            padding: 20px;
+        }
+        /* Estilo del video */
+        .embed-responsive {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="equipo.html">Equipo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Noticias</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <h1>Bienvenido a Mi Sitio Web</h1>
+        <p>Tu fuente de información sobre inteligencia artificial</p>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container main-content">
+        <h2>Sobre Nosotros</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+        <p>Phasellus ullamcorper ipsum rutrum nunc. Nullam fringilla, elit id posuere accumsan.</p>
+        <p>Donec venenatis vulputate lorem. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+        <!-- Video de YouTube -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K5pkkuiyRzk"></iframe>
+        </div>
+    </div>
+
+    <!-- Enlace a Bootstrap y JavaScript de Bootstrap CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
